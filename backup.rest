@@ -1,0 +1,27 @@
+POST https://proforma-backup-server.onrender.com/backup
+Content-Type: application/json
+
+{
+  "data": {
+    "proformas": [
+      { "id": 1, "proformaNumber": "PF002", "customerName": "chew" }
+    ],
+    "items": [
+      { "id": 1, "proformaId": 2, "itemName": " light" }
+    ]
+  }
+}
+###
+POST http://localhost:3000/backup
+Content-Type: application/json
+
+{
+  "data": {
+    "proformas": [
+      { "id": 1, "proformaNumber": "PF002", "customerName": "Bsre Abrw daasssssssssh" }
+    ],
+    "items": [
+      { "id": 1, "proformaId": 2, "itemName": "BackLight" }
+    ]
+  }
+}
