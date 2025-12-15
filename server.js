@@ -68,6 +68,7 @@ const itemSchema = new mongoose.Schema({
   quantity: Number,
   unitPrice: Number,
   totalPrice: Number,
+  remarks String,
   lastModified: String
 });
 
