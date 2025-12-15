@@ -68,7 +68,7 @@ const itemSchema = new mongoose.Schema({
   quantity: Number,
   unitPrice: Number,
   totalPrice: Number,
-  remarks String,
+  remarks : String,
   lastModified: String
 });
 
